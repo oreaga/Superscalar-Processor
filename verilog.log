@@ -1,0 +1,387 @@
+Host command: /dept/enee/software/cadenceIC616/inst/INCISIV/tools/verilog/bin/verilog.exe
+Command arguments:
+    test.v
+    doreagan_RiSC_p2.v
+    memories.v
+
+Tool:	VERILOG-XL	08.20.001-d log file created Dec 18, 2017  18:26:27
+Tool:	VERILOG-XL	08.20.001-d   Dec 18, 2017  18:26:27
+
+Copyright (c) 1995-2004 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995-2004 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-877-CDS-4911 or send email to support@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkv@cadence.com
+
+Compiling source file "test.v"
+Compiling source file "doreagan_RiSC_p2.v"
+Compiling source file "memories.v"
+Highest level modules:
+top
+
+------------- (time 0000000000000002)
+regs  0000 0000 0000 0000 0000 0000 0000
+pipe  PC=xxxx
+pipe  IFID_instr=xxxx (op=x rA=x rB=x rC=x imm=  x) IFID_pc=xxxx
+pipe  IDEX_op0=xxxx IDEX_op1=xxxx IDEX_op2=xxxx IDEX_op=x IDEX_rT=x IDEX_pc=xxxx IDEX_x=x
+pipe  EXMEM_stdata=xxxx EXMEM_ALUout=xxxx EXMEM_op=x EXMEM_rT=x EXMEM_pc=xxxx EXMEM_x=x
+pipe  MEMWB_rfdata=xxxx MEMWB_rT=x MEMWB_pc=xxxx MEMWB_x=x
+etc.  Pstall=x Pstomp=x jalr=x branch=x simm=    x
+data forward R__out1=xxxx ALU_out=xxxx MUXout=xxxx RFdata=xxxx MUXs2out=x memdata2_out=xxxx memaddr=xxxx
+check wires idex_targets_src1=xxxx exmem_targets_src1=xxxx memwb_targets_src1=xxxx
+pipe  PC=xxxx
+pipe  IFID_instr=xxxx (op=x rA=x rB=x rC=x imm=  x) IFID_pc=xxxx
+pipe  IDEX_op0=xxxx IDEX_op1=xxxx IDEX_op2=xxxx IDEX_op=x IDEX_rT=x IDEX_pc=xxxx IDEX_x=x
+pipe  EXMEM_stdata=xxxx EXMEM_ALUout=xxxx EXMEM_op=x EXMEM_rT=x EXMEM_pc=xxxx EXMEM_x=x
+pipe  MEMWB_rfdata=xxxx MEMWB_rT=x MEMWB_pc=xxxx MEMWB_x=x
+etc.  Pstall=x Pstomp=x jalr=x branch=x simm=    x
+data forward R__out1=xxxx ALU_out=xxxx MUXout=xxxx RFdata=xxxx MUXs2out=x
+check wires idex_targets_src1=xxxx exmem_targets_src1=xxxx memwb_targets_src1=xxxx MUXop1_1=xxxx
+me=xxxx abus2_0=xxxx abus2_1=xxxx dbus2o_0=xxxx dbus2o_1=xxxx
+------------- (time 000000000000000a)
+regs  0000 0000 0000 0000 0000 0000 0000
+pipe  PC=0000
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0000
+pipe  IDEX_op0=0000 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0000 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=0001
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0000
+pipe  IDEX_op0=0000 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0000 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 0000000000000014)
+regs  0000 0000 0000 0000 0000 0000 0000
+pipe  PC=0002
+pipe  IFID_instr=a40e (op=5 rA=1 rB=0 rC=6 imm= 14) IFID_pc=0000
+pipe  IDEX_op0=0002 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0000 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=   14
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=1 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=0003
+pipe  IFID_instr=2482 (op=1 rA=1 rB=1 rC=2 imm=  2) IFID_pc=0001
+pipe  IDEX_op0=0002 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0000 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    2
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=1
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 000000000000001e)
+regs  0000 0000 0000 0000 0000 0000 0000
+pipe  PC=0004
+pipe  IFID_instr=2884 (op=1 rA=2 rB=1 rC=4 imm=  4) IFID_pc=0002
+pipe  IDEX_op0=000e IDEX_op1=0000 IDEX_op2=0000 IDEX_op=5 IDEX_rT=1 IDEX_pc=0000 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=1 Pstomp=1 jalr=0 branch=0 simm=    4
+data forward R__out1=0000 ALU_out=000e MUXout=0000 RFdata=0000 MUXs2out=2 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=000e exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=0003
+pipe  IFID_instr=2482 (op=1 rA=1 rB=1 rC=2 imm=  2) IFID_pc=0001
+pipe  IDEX_op0=0002 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0001 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    2
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=1
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=000e
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 0000000000000028)
+regs  0000 0000 0000 0000 0000 0000 0000
+pipe  PC=0004
+pipe  IFID_instr=2884 (op=1 rA=2 rB=1 rC=4 imm=  4) IFID_pc=0002
+pipe  IDEX_op0=0004 IDEX_op1=000e IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0002 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=000e EXMEM_op=5 EXMEM_rT=1 EXMEM_pc=0000 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    4
+data forward R__out1=0000 ALU_out=000e MUXout=0004 RFdata=0000 MUXs2out=2 memdata2_out=0004 memaddr=000e
+check wires idex_targets_src1=000e exmem_targets_src1=0004 memwb_targets_src1=0000
+pipe  PC=0003
+pipe  IFID_instr=2482 (op=1 rA=1 rB=1 rC=2 imm=  2) IFID_pc=0001
+pipe  IDEX_op0=0002 IDEX_op1=000e IDEX_op2=000e IDEX_op=0 IDEX_rT=0 IDEX_pc=0001 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0001 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    2
+data forward R__out1=0000 ALU_out=001c MUXout=0000 RFdata=0000 MUXs2out=1
+check wires idex_targets_src1=001c exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0004
+me=2482 abus2_0=000e abus2_1=0000 dbus2o_0=0004 dbus2o_1=a40e
+------------- (time 0000000000000032)
+regs  0000 0000 0000 0000 0000 0000 0000
+pipe  PC=0004
+pipe  IFID_instr=2884 (op=1 rA=2 rB=1 rC=4 imm=  4) IFID_pc=0002
+pipe  IDEX_op0=0004 IDEX_op1=0004 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0002 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=000e EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0002 EXMEM_x=0
+pipe  MEMWB_rfdata=0004 MEMWB_rT=1 MEMWB_pc=0000 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    4
+data forward R__out1=0000 ALU_out=0004 MUXout=000e RFdata=0004 MUXs2out=2 memdata2_out=0004 memaddr=000e
+check wires idex_targets_src1=0004 exmem_targets_src1=000e memwb_targets_src1=0004
+pipe  PC=0005
+pipe  IFID_instr=2d03 (op=1 rA=3 rB=2 rC=3 imm=  3) IFID_pc=0003
+pipe  IDEX_op0=0002 IDEX_op1=0004 IDEX_op2=0004 IDEX_op=1 IDEX_rT=1 IDEX_pc=0001 IDEX_x=0
+pipe  EXMEM_stdata=000e EXMEM_ALUout=001c EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0001 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0001 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    3
+data forward R__out1=0000 ALU_out=0006 MUXout=001c RFdata=0000 MUXs2out=3
+check wires idex_targets_src1=0006 exmem_targets_src1=001c memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=000e abus2_1=001c dbus2o_0=0004 dbus2o_1=xxxx
+------------- (time 000000000000003c)
+regs  0004 0000 0000 0000 0000 0000 0000
+pipe  PC=0006
+pipe  IFID_instr=8c28 (op=4 rA=3 rB=0 rC=0 imm= 40) IFID_pc=0004
+pipe  IDEX_op0=0004 IDEX_op1=0006 IDEX_op2=0000 IDEX_op=1 IDEX_rT=2 IDEX_pc=0002 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0004 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0002 EXMEM_x=0
+pipe  MEMWB_rfdata=000e MEMWB_rT=0 MEMWB_pc=0002 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=   40
+data forward R__out1=0000 ALU_out=000a MUXout=0004 RFdata=000e MUXs2out=3 memdata2_out=8c28 memaddr=0004
+check wires idex_targets_src1=000a exmem_targets_src1=0004 memwb_targets_src1=000e
+pipe  PC=0005
+pipe  IFID_instr=2d03 (op=1 rA=3 rB=2 rC=3 imm=  3) IFID_pc=0003
+pipe  IDEX_op0=0003 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0003 IDEX_x=0
+pipe  EXMEM_stdata=0004 EXMEM_ALUout=0006 EXMEM_op=1 EXMEM_rT=1 EXMEM_pc=0001 EXMEM_x=0
+pipe  MEMWB_rfdata=001c MEMWB_rT=0 MEMWB_pc=0001 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    3
+data forward R__out1=0000 ALU_out=0000 MUXout=0006 RFdata=001c MUXs2out=3
+check wires idex_targets_src1=0000 exmem_targets_src1=0006 memwb_targets_src1=001c MUXop1_1=000a
+me=2482 abus2_0=0004 abus2_1=0006 dbus2o_0=8c28 dbus2o_1=0000
+------------- (time 0000000000000046)
+regs  0004 0000 0000 0000 0000 0000 0000
+pipe  PC=0006
+pipe  IFID_instr=8c28 (op=4 rA=3 rB=0 rC=0 imm= 40) IFID_pc=0004
+pipe  IDEX_op0=0028 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0004 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=000a EXMEM_op=1 EXMEM_rT=2 EXMEM_pc=0002 EXMEM_x=0
+pipe  MEMWB_rfdata=0004 MEMWB_rT=0 MEMWB_pc=0002 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=   40
+data forward R__out1=0000 ALU_out=0000 MUXout=000a RFdata=0004 MUXs2out=3 memdata2_out=0000 memaddr=000a
+check wires idex_targets_src1=0000 exmem_targets_src1=000a memwb_targets_src1=0004
+pipe  PC=0007
+pipe  IFID_instr=b428 (op=5 rA=5 rB=0 rC=0 imm= 40) IFID_pc=0005
+pipe  IDEX_op0=0003 IDEX_op1=000a IDEX_op2=0000 IDEX_op=1 IDEX_rT=3 IDEX_pc=0003 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0003 EXMEM_x=0
+pipe  MEMWB_rfdata=0006 MEMWB_rT=1 MEMWB_pc=0001 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=   40
+data forward R__out1=0000 ALU_out=000d MUXout=0000 RFdata=0006 MUXs2out=5
+check wires idex_targets_src1=000d exmem_targets_src1=0000 memwb_targets_src1=0006 MUXop1_1=0000
+me=2482 abus2_0=000a abus2_1=0000 dbus2o_0=0000 dbus2o_1=a40e
+------------- (time 0000000000000050)
+regs  0006 0000 0000 0000 0000 0000 0000
+pipe  PC=0008
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0006
+pipe  IDEX_op0=0028 IDEX_op1=0000 IDEX_op2=000d IDEX_op=4 IDEX_rT=0 IDEX_pc=0004 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0004 EXMEM_x=0
+pipe  MEMWB_rfdata=000a MEMWB_rT=2 MEMWB_pc=0002 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0028 MUXout=0000 RFdata=000a MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0028 exmem_targets_src1=0000 memwb_targets_src1=000a
+pipe  PC=0007
+pipe  IFID_instr=b428 (op=5 rA=5 rB=0 rC=0 imm= 40) IFID_pc=0005
+pipe  IDEX_op0=0028 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0005 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=000d EXMEM_op=1 EXMEM_rT=3 EXMEM_pc=0003 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0003 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=   40
+data forward R__out1=0000 ALU_out=0000 MUXout=000d RFdata=0000 MUXs2out=5
+check wires idex_targets_src1=0000 exmem_targets_src1=000d memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=000d dbus2o_0=a40e dbus2o_1=0000
+------------- (time 000000000000005a)
+regs  0006 000a 0000 0000 0000 0000 0000
+pipe  PC=000a
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0008
+pipe  IDEX_op0=0008 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0006 IDEX_x=0
+pipe  EXMEM_stdata=000d EXMEM_ALUout=0028 EXMEM_op=4 EXMEM_rT=0 EXMEM_pc=0004 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0004 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0028 RFdata=0000 MUXs2out=0 memdata2_out=xxxx memaddr=0028
+check wires idex_targets_src1=0000 exmem_targets_src1=0028 memwb_targets_src1=0000
+pipe  PC=0009
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0007
+pipe  IDEX_op0=0028 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=5 IDEX_rT=5 IDEX_pc=0005 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0005 EXMEM_x=0
+pipe  MEMWB_rfdata=000d MEMWB_rT=3 MEMWB_pc=0003 MEMWB_x=0
+etc.  Pstall=0 Pstomp=1 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0028 MUXout=0000 RFdata=000d MUXs2out=0
+check wires idex_targets_src1=0028 exmem_targets_src1=0000 memwb_targets_src1=000d MUXop1_1=0000
+me=2482 abus2_0=0028 abus2_1=0000 dbus2o_0=xxxx dbus2o_1=a40e
+------------- (time 0000000000000064)
+regs  0006 000a 000d 0000 0000 0000 0000
+pipe  PC=000a
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0008
+pipe  IDEX_op0=000a IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0008 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0006 EXMEM_x=0
+pipe  MEMWB_rfdata=0028 MEMWB_rT=0 MEMWB_pc=0004 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0028 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0028
+pipe  PC=0009
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0009
+pipe  IDEX_op0=0009 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0007 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0028 EXMEM_op=5 EXMEM_rT=5 EXMEM_pc=0005 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0005 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=000d RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=000d memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0028 dbus2o_0=a40e dbus2o_1=000d
+------------- (time 000000000000006e)
+regs  0006 000a 000d 0000 0000 0000 0000
+pipe  PC=000c
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000a
+pipe  IDEX_op0=000a IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0008 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0008 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0006 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=0009
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0009
+pipe  IDEX_op0=000b IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0009 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0007 EXMEM_x=0
+pipe  MEMWB_rfdata=000d MEMWB_rT=5 MEMWB_pc=0005 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=000d MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=000d MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 0000000000000078)
+regs  0006 000a 000d 0000 000d 0000 0000
+pipe  PC=000c
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000a
+pipe  IDEX_op0=000c IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000a IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0008 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0008 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=000b
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=0009
+pipe  IDEX_op0=000b IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0009 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0009 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0007 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 0000000000000082)
+regs  0006 000a 000d 0000 000d 0000 0000
+pipe  PC=000c
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000a
+pipe  IDEX_op0=000c IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000a IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000a EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0008 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=000d
+pipe  IFID_instr=e071 (op=7 rA=0 rB=0 rC=1 imm=113) IFID_pc=000b
+pipe  IDEX_op0=000b IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=0009 IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0009 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0009 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=65521
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 000000000000008c)
+regs  0006 000a 000d 0000 000d 0000 0000
+pipe  PC=000e
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000c
+pipe  IDEX_op0=000c IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000a IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000a EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=000a MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=000d
+pipe  IFID_instr=e071 (op=7 rA=0 rB=0 rC=1 imm=113) IFID_pc=000b
+pipe  IDEX_op0=fff1 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000b IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=0009 EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0009 MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=65521
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 0000000000000096)
+regs  0006 000a 000d 0000 000d 0000 0000
+pipe  PC=000e
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000c
+pipe  IDEX_op0=000e IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000c IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000a EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=000a MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=0 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=000f
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000d
+pipe  IDEX_op0=fff1 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=7 IDEX_rT=0 IDEX_pc=000b IDEX_x=1
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000b EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=0009 MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=fff1 MUXout=0000 RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=fff1 exmem_targets_src1=0000 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=0000 dbus2o_0=a40e dbus2o_1=a40e
+------------- (time 00000000000000a0)
+regs  0006 000a 000d 0000 000d 0000 0000
+pipe  PC=0010
+pipe  IFID_instr=0004 (op=0 rA=0 rB=0 rC=4 imm=  4) IFID_pc=000e
+pipe  IDEX_op0=000e IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000c IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000c EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=000a MEMWB_x=0
+etc.  Pstall=1 Pstomp=0 jalr=0 branch=0 simm=    4
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=4 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=000f
+pipe  IFID_instr=0000 (op=0 rA=0 rB=0 rC=0 imm=  0) IFID_pc=000d
+pipe  IDEX_op0=000f IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000d IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=fff1 EXMEM_op=7 EXMEM_rT=0 EXMEM_pc=000b EXMEM_x=1
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=000b MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    0
+data forward R__out1=0000 ALU_out=0000 MUXout=fff1 RFdata=0000 MUXs2out=0
+check wires idex_targets_src1=0000 exmem_targets_src1=fff1 memwb_targets_src1=0000 MUXop1_1=0000
+me=2482 abus2_0=0000 abus2_1=fff1 dbus2o_0=a40e dbus2o_1=xxxx
+------------- (time 00000000000000aa)
+regs  0006 000a 000d 0000 000d 0000 0000
+pipe  PC=0010
+pipe  IFID_instr=0004 (op=0 rA=0 rB=0 rC=4 imm=  4) IFID_pc=000e
+pipe  IDEX_op0=0010 IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000e IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000c EXMEM_x=0
+pipe  MEMWB_rfdata=0000 MEMWB_rT=0 MEMWB_pc=000c MEMWB_x=0
+etc.  Pstall=0 Pstomp=0 jalr=0 branch=0 simm=    4
+data forward R__out1=0000 ALU_out=0000 MUXout=0000 RFdata=0000 MUXs2out=4 memdata2_out=a40e memaddr=0000
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=0000
+pipe  PC=0011
+pipe  IFID_instr=xxxx (op=x rA=x rB=x rC=x imm=  x) IFID_pc=000f
+pipe  IDEX_op0=000f IDEX_op1=0000 IDEX_op2=0000 IDEX_op=0 IDEX_rT=0 IDEX_pc=000d IDEX_x=0
+pipe  EXMEM_stdata=0000 EXMEM_ALUout=0000 EXMEM_op=0 EXMEM_rT=0 EXMEM_pc=000d EXMEM_x=0
+pipe  MEMWB_rfdata=fff1 MEMWB_rT=0 MEMWB_pc=000b MEMWB_x=1
+etc.  Pstall=x Pstomp=x jalr=x branch=x simm=    x
+data forward R__out1=xxxx ALU_out=0000 MUXout=0000 RFdata=fff1 MUXs2out=x
+check wires idex_targets_src1=0000 exmem_targets_src1=0000 memwb_targets_src1=fff1 MUXop1_1=xxxx
+L935 "doreagan_RiSC_p2.v": $finish at simulation time 170
+0 simulation events (use +profile or +listcounts option to count) + 2774 accelerated events
+CPU time: 0.0 secs to compile + 0.0 secs to link + 0.0 secs in simulation
+End of Tool:	VERILOG-XL	08.20.001-d   Dec 18, 2017  18:26:28
